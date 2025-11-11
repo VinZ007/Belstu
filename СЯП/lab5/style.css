@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(135deg,#525363,#c3b9c2,#d8d7e4, #494949);
+}
+table{
+    width: 500px;
+    height: 500px;
+    border-collapse: collapse;
+    box-shadow: 3px 5px 30px 0.8px black;
+
+}
+td{
+    border: 3px solid black;
+
+}
+
+.tab{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <button onclick="OpenWindow()">Открыть новое окно</button>
+        <button onclick="CloseWindow()">Закрыть окно</button>
+        <button onclick="PasteText()">Вставить текст в окно</button>
+    </nav>
+    
+    <div class="pre-container">
+        <h1>Информация о браузере и системе</h1>
+        <button onclick="GetInfo()">Запросить данные</button>
+    </div>
+    <div class="container">    
+        <table id="browserInfo">
+            <thead>
+                <tr>
+                    <th>Параметр</th>
+                    <th>Значение</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Данные будут заполнены JavaScript -->
+            </tbody>
+        </table>
+         </div>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>

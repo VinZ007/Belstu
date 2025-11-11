@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg,#F2E7DC, #93D94E);
+
+  }
+
+button{
+    margin: 20px;
+    padding: 20px;
+    background: linear-gradient(135deg,#2A383D, #466060,#57886c);
+	color: #fff;
+    box-shadow: 0 2px 16px #0D0D0D;
+     transition: all 1.2s ease-out;
+}
+button:hover, button:focus{
+    background: linear-gradient(135deg,#042326, #0A3A40,#0F5959);
+    cursor: pointer;
+   
+}

@@ -1,0 +1,28 @@
+a{
+    text-decoration: none;
+    color: red;
+    font-size: 22px;
+}
+button{
+    margin: 10px;
+    background-color:  #fb6edc;
+    border: 2px solid  #fb6edc;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+

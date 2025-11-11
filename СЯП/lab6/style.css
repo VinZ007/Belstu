@@ -1,0 +1,61 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #5BD99E;
+    color: white;
+    border: 1px solid #ddd;
+
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+
+.pre-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.pre-container button{
+    margin-left: 25px;
+}
+.pre-container button:hover{
+    background: linear-gradient(135deg,#5BD99E,#1dee8d, #4A8C6D);
+    padding: 13px;
+    margin-left: 32px;
+}
+
+button{
+    background: linear-gradient(135deg,#5BD99E,#84D9B1);
+    border: 1px solid #1dee8d;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px;
+    transition: all 1.2s;
+}
+
+button:hover{
+    background: linear-gradient(135deg,#5BD99E,#1dee8d, #4A8C6D);
+    padding: 13px;
+    margin: 17px;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 30px 0;
+}

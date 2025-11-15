@@ -1,0 +1,99 @@
+body{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2em;
+  
+}
+
+form{
+    background: linear-gradient(135deg,#42113C,#1A1773);
+    box-shadow: 0 2px 16px #0D0D0D;
+    color: aliceblue;
+    border: 1px solid #1A1773;
+    border-radius: 20px;
+}
+select{
+  background-color: #7566D9;
+  height: 25px;
+  color: aliceblue;
+
+}
+.block{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  
+}
+.block input{
+  margin-left: 15px;
+  border: 1px solid #1A1773;
+  border-radius: 4px;
+  color: aliceblue;
+
+}
+.checkboxvar{
+  display: flex;
+  flex-direction: row;
+}
+.text_ar{
+  display: flex;
+  padding-left: 12px;
+  width: 50%;
+
+}
+
+input{
+    background-color: #7566D9;
+    height: 25px;
+    width: 35%;
+   
+}
+
+input[type="text"]:focus {
+  background-color: lightblue;
+  color: #0D0D0D;
+}
+select:focus {
+  background-color: ivory;
+  color: #0D0D0D;
+}
+
+.block_but{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: end;
+}
+
+.check{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button{
+  
+  background: linear-gradient(135deg,#010440,#42113C,#1A1773, #423F8C);
+  color: aliceblue;
+  padding: 10px 40px 10px;
+  box-shadow: 0 0 4px white;
+  transition: all 6s ease-in-out;
+
+}
+
+button:hover{
+   background: linear-gradient(135deg,#370140,#42113C,#731761, #8c3f71);
+   cursor: pointer;
+   
+}
+
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; 
+}
+

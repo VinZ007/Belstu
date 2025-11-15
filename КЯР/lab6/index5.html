@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта-изображение без JavaScript</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Интерактивная карта-изображение</h1>
+            <p class="subtitle">Нажмите на выделенные области изображения для перехода к разным категориям</p>
+        </header>
+
+
+        <div class="image-container">
+            <img src="img/les.jpg" class="main-image" usemap="#image-map">
+
+            <!-- Карта-изображение -->
+            <map name="image-map">
+                <area shape="rect" coords="475,310,660,370" href="https://unsplash.com/s/photos/4k-mountain"
+                    alt="Горные пейзажи" title="Горные пейзажи">
+                <area shape="poly" coords="586,416,869,102,1000,473" href="https://unsplash.com/s/photos/4k-forest"
+                    alt="Лесные массивы" title="Лесные массивы">
+                <area shape="rect" coords="490,490,530,493" href="https://www.pexels.com/search/lake/"
+                    alt="Озёра и реки" title="Озёра и реки">
+
+            </map>
+        </div>
+
+    </div>
+</body>
+
+</html>

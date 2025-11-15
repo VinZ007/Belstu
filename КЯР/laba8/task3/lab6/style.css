@@ -1,0 +1,95 @@
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1rem 2rem;
+    line-height: 1.4;
+    color: #111;
+}
+h1{
+    text-align: center;
+    color: rgb(127, 193, 255);
+    margin: 0.5rem 0 1rem 0;
+}
+
+.faculty-logo{
+    position: absolute;
+    top: 0.25rem;
+    right: 0.25rem;
+    width: 80px;
+    height: auto;
+    display: block;
+}
+
+.lead{ font-size: 25px; color:  cadetblue; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+.big{ font-size: 25px; color: rgb(1,104,61); font-family: 'Courier New', Courier, monospace; }
+.tools{ font-size: 25px; color: rgb(17,21,77); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+.highlight{ color: crimson; }
+
+        /* Custom bullets using background-image on LI */
+ul.custom-bullets{
+    list-style: none; 
+}
+ul.custom-bullets li{
+    padding-left: 3rem;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin: 0.6rem 0;
+}
+        /* disk, square, circle variants - replace with your own small images */
+ul.custom-bullets.disk li{ background-image: url('img/photo_1.jpg'); background-size: 2rem 2rem; }
+ul.custom-bullets.square li{ background-image: url('img/photo_2.jpg'); background-size: 2rem 2rem; }
+ul.custom-bullets.circle li{ background-image: url('img/photo_1.jpg'); background-size: 2rem 2rem; }
+
+        /* Table styling */
+.main-table{ 
+	border: 2px solid #000;
+	width: 100%;
+	border-collapse: collapse; 
+}
+.main-table th, .main-table td{ 
+	border: 1px solid #777; 
+	padding: 0.5rem; 
+}
+.main-table th{ 
+	text-align: center;
+	background: #f2f2f2; 
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+.image{
+	width: 20vw;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.text{
+	width: 80vw;
+}
+
+
+.reverse{
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.text h2,h3{
+	margin-top: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+.text h2:first-child, h3:first-child{
+	margin-top: 0;
+}
+.text p {
+    margin: 0 0 1em 0; 
+    text-indent: 1.5em; 
+}

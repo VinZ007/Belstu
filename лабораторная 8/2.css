@@ -1,0 +1,17 @@
+.horizontal-nav li {
+    float: left;
+    background: yellow;
+    border: solid 1px black;
+    display: inline;
+
+}
+
+.nav a {
+    display: inline-block;
+    /*для плавающих элементов значение block*/
+    border: 1px solid black;
+    padding: 5px 15px 5px 30px;
+    background-color: yellow;
+    text-decoration: none;
+    color: rgb(3, 178, 117);
+}

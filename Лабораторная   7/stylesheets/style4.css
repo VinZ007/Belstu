@@ -1,0 +1,85 @@
+@keyframes texta {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8; /* 80% */
+    }
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 { 
+position: relative;
+animation: texta  4s linear infinite; }
+
+.slider {
+    width: 400px;
+    height: 300px;
+    border: 5px solid red; 
+    position: relative; 
+}
+
+.slider img {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    opacity: 0; 
+    
+    
+    animation-name: fade; 
+    animation-duration: 25s; 
+    animation-timing-function: linear; 
+    animation-iteration-count: infinite;
+}
+
+
+.slider img:nth-child(1) { 
+    animation-delay: 0s;
+}
+.slider img:nth-child(2) { 
+    animation-delay: 5s; 
+}
+.slider img:nth-child(3) { 
+    animation-delay: 10s;
+}
+.slider img:nth-child(4) { 
+    animation-delay: 15s; 
+}
+.slider img:nth-child(5) { 
+    animation-delay: 20s; 
+}
+
+@keyframes fade {
+    
+    0% { 
+        opacity: 0;
+    }
+    5% { 
+        opacity: 1; 
+    }
+    15% { 
+        opacity: 1; 
+    } 
+    20% { 
+        opacity: 0;
+    }   
+    100% { 
+        opacity: 0;
+    }
+}
+
+a{
+    display: inline-block;
+    margin: 20px;
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}

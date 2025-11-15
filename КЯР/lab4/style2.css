@@ -1,0 +1,39 @@
+.ex{
+    border: none;
+}
+table{
+    
+	margin: 0 auto;
+	border-collapse: collapse; 
+	table-layout: fixed;
+	
+}
+td{
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid black;
+}
+.col_1{
+    background: linear-gradient(135deg,#44E3D3,#04C4D9);
+    color: aliceblue;
+}
+.verh{
+    background: linear-gradient(135deg,#012030,#13678A);
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.col_2{
+    background: linear-gradient(135deg,#A63348,#D96A93, #F2994B);
+    color: aliceblue;
+}
+
+.col_3{
+   background: linear-gradient(135deg,#03A64A,#025940, #026873);
+    color: aliceblue; 
+}
+.first{
+    font-weight: bold ;
+}

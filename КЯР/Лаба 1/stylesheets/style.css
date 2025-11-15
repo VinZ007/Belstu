@@ -1,0 +1,28 @@
+table {
+    width: 800px;
+    height: 500px;
+    border-collapse: collapse;
+   }
+td, th {
+    border: 1px solid #333;
+    padding: 3px;
+   }
+a{ 
+    text-decoration: none;
+}
+ul,li{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    font-size: 45px;
+}
+h3{
+    font-size: 35px;
+}
+.tabl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.5rem;
+}

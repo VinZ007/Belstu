@@ -1,0 +1,34 @@
+table {
+    width: 800px;
+    height: 500px;
+    border-collapse: collapse;
+   }
+table td, th {
+    border: 1px solid #333;
+    padding: 3px;
+    color: purple;
+   }
+a{ 
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    color: purple;
+    font-family: Monotype Corsiva;
+}
+
+.sent1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: red;
+}
+.sent2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: yellow;
+}
+
+.sent3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+    color: green;
+}

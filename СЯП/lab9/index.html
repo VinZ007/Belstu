@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="task-section">
+        <div class="drag" id="drag">
+            <div class="text_drag" draggable="true" id="textItem">
+                <h3>кривая черточка</h3>
+            </div>
+            <div class="image_drag" id="image_dr">
+                <figure draggable="true" id="imageItem">
+                    <img src="beloded.png" alt="">
+                </figure>
+                <figcaption>Белодед до кофе</figcaption>
+            </div>
+        </div>
+        <div class="drop-zones">
+            <div class="drop" id="dropText">
+                <h4>Перетащите текст сюда</h4>
+            </div>
+            <div class="drop" id="dropImage">
+                <h4>Перетащите изображение сюда</h4>
+            </div>
+        </div>
+    </section>
+    <section class="task-section2">
+        <a href="index2.html">Задание 2</a>
+    </section>
+    <section class="task-section2">
+        <h3>Построение графика функции</h3>
+        <div class="type">
+            <h4>Выберите функцию</h4>
+            <input type="radio" name="ffunc" value="1"> y=x² <!--y=x², y=x³, y=sin(x), y=cos(x)-->
+            <input type="radio" name="ffunc" value="2"> y=x³
+            <input type="radio" name="ffunc" value="3"> y=sin(x)
+            <input type="radio" name="ffunc" value="4"> y=cos(x)
+        </div>
+        <div class="colors">
+            <select name="colors" id="colors" style="width: 37%;">
+                <option value="blue">Синий</option> 
+                <option value="green">Зеленый</option> 
+                <option value="red">Красный</option> 
+                <option value="pink">Розовый</option> 
+                <option value="violet">Фиолетовый</option>
+            </select>
+            
+        </div>
+        <button onclick="Buildf()">Построить график</button>
+        <canvas id="canvas" width="540" height="540"></canvas>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>

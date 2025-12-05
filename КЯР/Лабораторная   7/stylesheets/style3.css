@@ -1,0 +1,54 @@
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.8; /* 80% */
+    }
+}
+h1 { 
+position: relative;
+animation: text  4s linear infinite; }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;/* для заголовка*/
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+
+.color-transition {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0000; /* Начальный цвет текста - красный */
+    background-color: #f76e6e;
+    border: 20px groove #f10505;
+    transition: color 20s linear;
+}
+
+.color-transition:hover {
+    color: #0000ff; /* Конечный цвет текста - синий */
+    cursor: pointer;
+}
+a{
+    display: inline-block;
+    margin: 20px;
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,132 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    position: relative;
+    animation: texta 4s linear infinite;
+}
+
+.one {
+    position: relative;
+    width: 160px;
+    animation: one 4s linear infinite alternate;
+}
+
+.two {
+    position: relative;
+    width: 160px;
+    animation: two 4s linear infinite alternate;
+}
+
+.three {
+    position: relative;
+    width: 160px;
+    animation: three 8s ease-in-out infinite;
+}
+
+.four {
+    position: relative;
+    width: 160px;
+    animation: four 8s linear infinite
+}
+
+a {
+    display: inline-block;
+    margin: 20px;
+    color: crimson;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@keyframes texta {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0.8;
+        /* 80% */
+    }
+}
+
+@keyframes one {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(200px);
+    }
+}
+
+
+
+
+@keyframes two {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(200px);
+    }
+}
+
+
+
+
+@keyframes three {
+    0% {
+        transform: translateX(0) translateY(0);
+    }
+
+    25% {
+        transform: translateX(100px) translateY(50px);
+    }
+
+    50% {
+        transform: translateX(200px) translateY(0);
+    }
+
+    75% {
+        transform: translateX(300px) translateY(-50px);
+    }
+
+    100% {
+        transform: translateX(400px) translateY(0);
+    }
+}
+
+
+
+@keyframes four {
+    0% {
+        left: 0;
+        top: 0;
+    }
+
+    25% {
+        left: 200px;
+        top: 0;
+    }
+
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        left: 0;
+        top: 200px;
+    }
+
+    100% {
+        left: 0;
+        top: 0;
+    }
+}
